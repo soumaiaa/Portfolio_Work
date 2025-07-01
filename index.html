@@ -106,7 +106,7 @@
   
         <div style="margin-top: 2rem;">
           <h4 style="color:#2d3748;">🧰 Compétences</h4>
-          <p>HTML, CSS, JavaScript, React, Symfony, Flutter, PHP, MySQL, Git, Figma</p>
+          <p>HTML, CSS, JavaScript, Bootstrap, React, Symfony, Flutter, PHP, MySQL, Git, Figma</p>
   
           <h4 style="color:#2d3748;">🎓 Formation</h4>
           <p>Bac +2 Développeuse Web et Web Mobile (France)<br>
@@ -162,17 +162,49 @@ const projects = [
     </div>
   </div>` ,
   `
-  <div class="project-card">
-    <img src="imageprojet/jeu.jpg" alt="Projet Jeu d'image" loading="lazy" />
+    <div class="project-card">
+      <img src="imageprojet/demain.jpeg" alt="Site WordPress Demain Selfcare" loading="lazy" />
+      <div class="project-content">
+        <h3>Site WordPress - Demain Selfcare</h3>
+        <p>Site professionnel réalisé pour une cliente pendant mon stage, avec WordPress et Divi.</p>
+        <div class="project-links">
+          <a href="https://demainselfcare.fr/" target="_blank" rel="noopener">Voir le site</a>
+        </div>
+      </div>
+    </div>`,
+    `
+<div class="project-card">
+    <img src="imageprojet/tpalpine.png" alt="Projet TP ALPINE" loading="lazy" />
     <div class="project-content">
-      <h3>Jeu d'image</h3>
-      <p> Ce jeu mobile consiste à retrouver trois images identiques pour gagner. Il a été développé avec Flutter et permet d’illustrer mes compétences en création d’interfaces intuitives, en logique de jeu et en design responsive.</p>
+      <h3>TP ALPINE</h3>
+      <p>Application React développée dans le cadre de ma formation pour simuler la gestion d’un garage automobile. Elle met en œuvre React, Bootstrap, et une structuration de composants moderne. </p>
       <div class="project-links">
-        <a href="https://github.com/soumaiaa/jeu-d-image.git" target="_blank" rel="noopener">Voir le code sur GitHub</a>
+        <a href="https://alpinesoumaia.netlify.app/" target="_blank" rel="noopener">Voir le projet</a>
       </div>
     </div>
-  </div>`,
-  
+  </div>` ,
+    `
+    <div class="project-card">
+      <img src="imageprojet/music.gif" alt="Projet Festival" loading="lazy" />
+      <div class="project-content">
+        <h3>Site Festival Culturel</h3>
+        <p>Projet réalisé pendant ma formation pour promouvoir un festival, développé sous WordPress avec le constructeur Elementor.</p>
+        <div class="project-links">
+          <a href="https://negar-soumaia-festival.projets.garage404.com/" target="_blank" rel="noopener">Voir le projet</a>
+        </div>
+      </div>
+    </div>`,
+`
+    <div class="project-card">
+      <img src="imageprojet/chiligram.gif" alt="Projet Chiligram" loading="lazy" />
+      <div class="project-content">
+        <h3>Chiligram</h3>
+        <p>Site HTML/CSS/PHP avec un peu de Javascript asynchrone.</p>
+        <div class="project-links">
+          <a href="https://soumaia-chiligrame.projets.garage404.com/" target="_blank" rel="noopener">Voir le projet</a>
+        </div>
+      </div>
+    </div>`, 
 `
   <div class="project-card">
     <img src="imageprojet/calculatrice.webp" alt="Projet Calculator App" loading="lazy" />
@@ -184,17 +216,17 @@ const projects = [
       </div>
     </div>
   </div>` , 
- `
-<div class="project-card">
-    <img src="imageprojet/alpine.png" alt="Projet TP ALPINE" loading="lazy" />
+  `
+  <div class="project-card">
+    <img src="imageprojet/jeu.jpg" alt="Projet Jeu d'image" loading="lazy" />
     <div class="project-content">
-      <h3>TP ALPINE</h3>
-      <p>Application React développée dans le cadre de ma formation pour simuler la gestion d’un garage automobile. Elle met en œuvre React, Bootstrap, et une structuration de composants moderne. </p>
+      <h3>Jeu d'image</h3>
+      <p> Ce jeu mobile consiste à retrouver trois images identiques pour gagner. Il a été développé avec Flutter et permet d’illustrer mes compétences en création d’interfaces intuitives, en logique de jeu et en design responsive.</p>
       <div class="project-links">
-        <a href="https://github.com/soumaiaa/TP-ALPINE.git" target="_blank" rel="noopener">Voir le code sur GitHub</a>
+        <a href="https://github.com/soumaiaa/jeu-d-image.git" target="_blank" rel="noopener">Voir le code sur GitHub</a>
       </div>
     </div>
-  </div>` ,
+  </div>`,
   
  `
   <div class="project-card">
@@ -207,28 +239,7 @@ const projects = [
       </div>
     </div>
   </div>` , 
-`
-    <div class="project-card">
-      <img src="imageprojet/demain.jpeg" alt="Site WordPress Demain Selfcare" loading="lazy" />
-      <div class="project-content">
-        <h3>Site WordPress - Demain Selfcare</h3>
-        <p>Site professionnel réalisé pour une cliente pendant mon stage, avec WordPress et Divi.</p>
-        <div class="project-links">
-          <a href="https://demainselfcare.fr/" target="_blank" rel="noopener">Voir le site</a>
-        </div>
-      </div>
-    </div>`,
-`
-    <div class="project-card">
-      <img src="imageprojet/music.gif" alt="Projet Festival" loading="lazy" />
-      <div class="project-content">
-        <h3>Site Festival Culturel</h3>
-        <p>Projet réalisé pendant ma formation pour promouvoir un festival, développé sous WordPress avec le constructeur Elementor.</p>
-        <div class="project-links">
-          <a href="https://negar-soumaia-festival.projets.garage404.com/" target="_blank" rel="noopener">Voir le projet</a>
-        </div>
-      </div>
-    </div>`,
+
 `
     <div class="project-card">
       <img src="imageprojet/Tour_Operateur.gif" alt="Projet agence de voyage" loading="lazy" />
@@ -286,7 +297,7 @@ const projects = [
     </div>`,
 `
     <div class="project-card">
-      <img src="imageprojet/yoo.gif" alt="Projet Yo! Application" loading="lazy" />
+      <img src="imageprojet/yoo.png" alt="Projet Yo! Application" loading="lazy" />
       <div class="project-content">
         <h3>Yo! Application</h3>
         <p>Reproduction d'une maquette en CSS et HTML.</p>
@@ -306,17 +317,7 @@ const projects = [
         </div>
       </div>
     </div>`,
-`
-    <div class="project-card">
-      <img src="imageprojet/chiligram.gif" alt="Projet Chiligram" loading="lazy" />
-      <div class="project-content">
-        <h3>Chiligram</h3>
-        <p>Site HTML/CSS/PHP avec un peu de Javascript asynchrone.</p>
-        <div class="project-links">
-          <a href="https://soumaia-chiligrame.projets.garage404.com/" target="_blank" rel="noopener">Voir le projet</a>
-        </div>
-      </div>
-    </div>`,
+
 `
     <div class="project-card">
       <img src="imageprojet/drumppad.gif" alt="Projet Drum Pad" loading="lazy" />
