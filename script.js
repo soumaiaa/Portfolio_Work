@@ -1,12 +1,12 @@
 const projects = [
 `<div class="project-card">
-    <img src="imageprojet/lsf.png" alt="Projet Langue des Signes Française" loading="lazy" />
+    <img src="imageprojet/task-master.png" alt="Projet Langue des Signes Française" loading="lazy" />
     <div class="project-content">
-      <h3>Apprentissage de la Langue des Signes Française</h3>
-      <p>Projet de fin d’études développé avec Symfony. Ce site propose des cours interactifs et des jeux pédagogiques pour apprendre la langue des signes française.</p>
+      <h3>Task Master – Application de gestion de tâches</h3>
+      <p> Application web de gestion de tâches (CRUD) développée avec <strong>React</strong> pour le frontend et <strong>Node.js / Express</strong> pour le backend. Le backend est déployé sur <strong>Render</strong> et le frontend sur <strong>Vercel</strong>. L’application permet d’ajouter, afficher et gérer des tâches via une API REST.</p>      
       <div class="project-links">
-        <a href="https://github.com/soumaiaa/langue-des-signes-fran-aise.git" target="_blank" rel="noopener">Voir le code sur GitHub</a>
-      </div>
+        <a href="https://task-master-phi-pied.vercel.app/" target="_blank" rel="noopener">Voir le projet</a>
+        </div>
     </div>
   </div>` ,
   `
@@ -75,6 +75,17 @@ const projects = [
       </div>
     </div>
   </div>` , 
+  
+   `<div class="project-card">
+    <img src="imageprojet/lsf.png" alt="Projet Langue des Signes Française" loading="lazy" />
+    <div class="project-content">
+      <h3>Apprentissage de la Langue des Signes Française</h3>
+      <p>Projet de fin d’études développé avec Symfony. Ce site propose des cours interactifs et des jeux pédagogiques pour apprendre la langue des signes française.</p>
+      <div class="project-links">
+        <a href="https://github.com/soumaiaa/langue-des-signes-fran-aise.git" target="_blank" rel="noopener">Voir le code sur GitHub</a>
+      </div>
+    </div>
+  </div>` ,
   `
   <div class="project-card">
     <img src="imageprojet/jeu.jpg" alt="Projet Jeu d'image" loading="lazy" />
