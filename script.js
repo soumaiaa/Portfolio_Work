@@ -76,16 +76,16 @@ const projects = [
     </div>
   </div>` , 
   
-   `<div class="project-card">
-    <img src="imageprojet/lsf.png" alt="Projet Langue des Signes Française" loading="lazy" />
-    <div class="project-content">
-      <h3>Apprentissage de la Langue des Signes Française</h3>
-      <p>Projet de fin d’études développé avec Symfony. Ce site propose des cours interactifs et des jeux pédagogiques pour apprendre la langue des signes française.</p>
-      <div class="project-links">
-        <a href="https://github.com/soumaiaa/langue-des-signes-fran-aise.git" target="_blank" rel="noopener">Voir le code sur GitHub</a>
-      </div>
-    </div>
-  </div>` ,
+  //  `<div class="project-card">
+  //   <img src="imageprojet/lsf.png" alt="Projet Langue des Signes Française" loading="lazy" />
+  //   <div class="project-content">
+  //     <h3>Apprentissage de la Langue des Signes Française</h3>
+  //     <p>Projet de fin d’études développé avec Symfony. Ce site propose des cours interactifs et des jeux pédagogiques pour apprendre la langue des signes française.</p>
+  //     <div class="project-links">
+  //       <a href="https://github.com/soumaiaa/langue-des-signes-fran-aise.git" target="_blank" rel="noopener">Voir le code sur GitHub</a>
+  //     </div>
+  //   </div>
+  // </div>` ,
   `
   <div class="project-card">
     <img src="imageprojet/jeu.jpg" alt="Projet Jeu d'image" loading="lazy" />
