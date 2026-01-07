@@ -15,35 +15,58 @@
 
 <body>
 
-    <header id="main-header">
-        <div class="container-header">
-          <h1>Soumaia Aloui</h1>
-          <small>Développeuse Web & Mobile</small>
-      
-          <!-- Bouton hamburger -->
-          <button id="menu-toggle" aria-label="Ouvrir le menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </button>
-        </div>
-      
-        <nav id="navbar" class="nav-closed">
-          <a href="#intro">Accueil</a>
-          <a href="#competences">Compétences</a>
-          <a href="#projects">Projets</a>
-          <a href="#cv">CV</a>
-          <a href="#contact">Contact</a>
-        </nav>
-    </header>    
+   <header id="main-header">
+  <div class="container-header">
 
-  <section id="intro" class="intro">
-    <h2>Bienvenue sur mon portfolio</h2>
-    <p>Passionnée par le développement web et mobile, je maîtrise un large éventail de technologies telles que HTML, CSS, JavaScript, PHP, React, Flutter et Symfony.
-    À travers ce portfolio, je vous invite à découvrir mes réalisations concrètes, témoignant de mes compétences techniques et de ma capacité à mener à bien des projets variés.
-    Créativité, rigueur et performance sont au cœur de mon approche professionnelle.</p>
-  </section>
- 
+    <div>
+      <h1>Soumaia Aloui</h1>
+      <small>Développeuse Web & Mobile</small>
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 1rem;">
+
+      <!-- Switch Dark Mode -->
+     <div class="theme-switch">
+      <input type="checkbox" id="dark-toggle" />
+      <label for="dark-toggle" class="switch"></label>
+    </div>
+      <!-- Bouton hamburger -->
+      <button id="menu-toggle" aria-label="Ouvrir le menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="nav-closed">
+    <a href="#intro">Accueil</a>
+    <a href="#competences">Compétences</a>
+    <a href="#projects">Projets</a>
+    <a href="#cv">CV</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+
+ <section id="intro" class="intro">
+  <h2>Bienvenue sur mon portfolio</h2>
+
+  <p>
+    Passionnée par le développement web et mobile, je conçois des applications
+    et des sites en utilisant des technologies comme
+    <strong>HTML, CSS, JavaScript, PHP, React, Flutter et Symfony</strong>.
+  </p>
+
+  <p>
+    À travers ce portfolio, je présente plusieurs projets réalisés durant ma
+    formation et en autonomie, illustrant mon apprentissage, ma rigueur et mon
+    intérêt pour la création d’interfaces fonctionnelles et soignées.
+  </p>
+</section>
+
 <section id="competences" class="competences">
   <h2>Mes compétences techniques</h2>
   <div class="skills-grid">
@@ -127,14 +150,14 @@
         </div>
   
         <div style="margin-top: 2rem;">
-          <h4 style="color:#2d3748;">🧰 Compétences</h4>
+          <h4>🧰 Compétences</h4>
           <p>HTML, CSS, JavaScript, Bootstrap, React, Symfony, Flutter, PHP, MySQL, Git, Figma</p>
   
-          <h4 style="color:#2d3748;">🎓 Formation</h4>
+          <h4>🎓 Formation</h4>
           <p>Bac +2 Développeuse Web et Web Mobile (France)<br>
           Licence appliquée en systèmes informatiques (Tunisie)</p>
   
-          <h4 style="color:#2d3748;">💼 Expérience</h4>
+          <h4>💼 Expérience</h4>
           <p>Stages et projets en développement web<br>
           Bénévolat : accompagnement scolaire & gestion d’un site associatif</p>
         </div>
