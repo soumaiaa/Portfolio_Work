@@ -44,50 +44,70 @@
     Créativité, rigueur et performance sont au cœur de mon approche professionnelle.</p>
   </section>
  
- <section id="competences" class="competences">
+<section id="competences" class="competences">
   <h2>Mes compétences techniques</h2>
   <div class="skills-grid">
-    <div class="skill-card">
-      <img src="img/htmlcss.png" alt="HTML CSS" />
+    <div class="skill-circle" data-skill="HTML / CSS" data-level="80">
+      <div class="circle">
+        <img src="img/htmlcss.png" alt="HTML / CSS" /> 
+      </div>
       <h3>HTML / CSS</h3>
-      <span class="badge badge-advanced">Avancé</span>
+      <p>Avancé</p>
     </div>
 
-    <div class="skill-card">
-      <img src="img/js.png" alt="JavaScript" />
+    <div class="skill-circle" data-skill="JavaScript" data-level="75">
+      <div class="circle">
+       <img src="img/js.png" alt="JavaScript" />
+      </div>
       <h3>JavaScript</h3>
-      <span class="badge badge-advanced">Avancé</span>
+      <p>Avancé</p>
     </div>
 
-    <div class="skill-card">
-      <img src="img/symfony.png" alt="PHP Symfony" />
+    <div class="skill-circle" data-skill="PHP / Symfony" data-level="70">
+      <div class="circle">
+       <img src="img/symfony.png" alt="PHP / Symfony" />
+      </div>
       <h3>PHP / Symfony</h3>
-      <span class="badge badge-confirmed">Confirmé</span>
+      <p>Confirmé</p>
     </div>
 
-    <div class="skill-card">
-      <img src="img/react.png" alt="React" />
+    <div class="skill-circle" data-skill="React / R.Native" data-level="65">
+      <div class="circle">
+        <img src="img/react.png" alt="React / R.Native" />
+      </div>
       <h3>React / R.Native</h3>
-      <span class="badge badge-intermediate">Intermédiaire</span>
+      <p>Intermédiaire</p>
     </div>
 
-    <div class="skill-card">
-      <img src="img/flutter.png" alt="Flutter" />
+    <div class="skill-circle" data-skill="Flutter" data-level="60">
+      <div class="circle">
+        <img src="img/flutter.png" alt="Flutter" />
+      </div>
       <h3>Flutter</h3>
-      <span class="badge badge-intermediate">Intermédiaire</span>
+      <p>Intermédiaire</p>
     </div>
   </div>
 </section>
 
   
-  <section id="projects">
-    <h2>Mes projets</h2>
-    <p>Voici une sélection de projets réalisés pendant ma formation et mes expériences professionnelles, illustrant mes compétences techniques et créatives.</p>
+<section id="projects">
+  <h2>Mes projets</h2>
+  <p>Voici une sélection de projets réalisés pendant ma formation et mes expériences professionnelles, illustrant mes compétences techniques et créatives.</p>
+
+  <!-- Boutons de filtre -->
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-category="all">Tous</button>
+    <button class="filter-btn" data-category="WordPress">WordPress</button>
+    <button class="filter-btn" data-category="Web">Web</button>
+    <button class="filter-btn" data-category="Mobile">Mobile</button>
     
-    <div class="projects-grid" id="projectsGrid"></div>
-    
-    <button id="loadMoreBtn" class="btn" style="margin: 2rem auto; display: block;">Voir plus de projets</button>
-  </section>
+    <button class="filter-btn" data-category="Autres">Autres</button>
+  </div>
+
+  <div class="projects-grid" id="projectsGrid"></div>
+  <button id="loadMoreBtn" class="btn" style="margin: 2rem auto; display: block;">Voir plus de projets</button>
+</section>
+
 
   <section id="cv">
     <h2>Mon CV</h2>

@@ -1,241 +1,193 @@
 const projects = [
-`<div class="project-card">
-    <img src="imageprojet/task-master.png" alt="Projet Langue des Signes Française" loading="lazy" />
-    <div class="project-content">
-      <h3>Task Master – Application de gestion de tâches</h3>
-      <p> Application web de gestion de tâches (CRUD) développée avec <strong>React</strong> pour le frontend et <strong>Node.js / Express</strong> pour le backend. Le backend est déployé sur <strong>Render</strong> et le frontend sur <strong>Vercel</strong>. L’application permet d’ajouter, afficher et gérer des tâches via une API REST.</p>      
-      <div class="project-links">
-        <a href="https://task-master-phi-pied.vercel.app/" target="_blank" rel="noopener">Voir le projet</a>
-        </div>
-    </div>
-  </div>` ,
-  `
-    <div class="project-card">
-      <img src="imageprojet/demain.jpeg" alt="Site WordPress Demain Selfcare" loading="lazy" />
-      <div class="project-content">
-        <h3>Site WordPress - Demain Selfcare</h3>
-        <p>Site professionnel réalisé pour une cliente pendant mon stage, avec WordPress et Divi.</p>
-        <div class="project-links">
-          <a href="https://demainselfcare.fr/" target="_blank" rel="noopener">Voir le site</a>
-        </div>
-      </div>
-    </div>`,
-     `
-    <div class="project-card">
-  <img src="imageprojet/jeuphilos.png" alt="Jeu Philosophique - Test de personnalité" loading="lazy" />
-  <div class="project-content">
-    <h3>Jeu Philosophique 🧠</h3>
-    <p>Jeu interactif multilingue (FR / AR / EN) basé sur des questions philosophiques. Réalisé avec HTML, CSS et JavaScript, il permet aux utilisateurs de découvrir leur personnalité à travers des choix réfléchis et de partager leurs résultats.</p>
-    <div class="project-links">
-      <a href="https://jeu-philosophique.netlify.app/" target="_blank" rel="noopener">Voir le projet</a>
-    </div>
-  </div>
-</div>`,
-    `
-<div class="project-card">
-    <img src="imageprojet/tpalpine.png" alt="Projet TP ALPINE" loading="lazy" />
-    <div class="project-content">
-      <h3>TP ALPINE</h3>
-      <p>Application React développée dans le cadre de ma formation pour simuler la gestion d’un garage automobile. Elle met en œuvre React, Bootstrap, et une structuration de composants moderne. </p>
-      <div class="project-links">
-        <a href="https://alpinesoumaia.netlify.app/" target="_blank" rel="noopener">Voir le projet</a>
-      </div>
-    </div>
-  </div>` ,
-    `
-    <div class="project-card">
-      <img src="imageprojet/music.gif" alt="Projet Festival" loading="lazy" />
-      <div class="project-content">
-        <h3>Site Festival Culturel</h3>
-        <p>Projet réalisé pendant ma formation pour promouvoir un festival, développé sous WordPress avec le constructeur Elementor.</p>
-        <div class="project-links">
-          <a href="https://negar-soumaia-festival.projets.garage404.com/" target="_blank" rel="noopener">Voir le projet</a>
-        </div>
-      </div>
-    </div>`,
-`
-    <div class="project-card">
-      <img src="imageprojet/chiligram.gif" alt="Projet Chiligram" loading="lazy" />
-      <div class="project-content">
-        <h3>Chiligram</h3>
-        <p>Site HTML/CSS/PHP avec un peu de Javascript asynchrone.</p>
-        <div class="project-links">
-          <a href="https://soumaia-chiligrame.projets.garage404.com/" target="_blank" rel="noopener">Voir le projet</a>
-        </div>
-      </div>
-    </div>`, 
-`
-  <div class="project-card">
-    <img src="imageprojet/calculatrice.webp" alt="Projet Calculator App" loading="lazy" />
-    <div class="project-content">
-      <h3>Calculator App</h3>
-      <p>Application calculatrice développée en Flutter, intégrant des fonctionnalités classiques avec une interface moderne.</p>
-      <div class="project-links">
-        <a href="https://github.com/soumaiaa/calculator_App.git" target="_blank" rel="noopener">Voir le code sur GitHub</a>
-      </div>
-    </div>
-  </div>` , 
-  
-  //  `<div class="project-card">
-  //   <img src="imageprojet/lsf.png" alt="Projet Langue des Signes Française" loading="lazy" />
-  //   <div class="project-content">
-  //     <h3>Apprentissage de la Langue des Signes Française</h3>
-  //     <p>Projet de fin d’études développé avec Symfony. Ce site propose des cours interactifs et des jeux pédagogiques pour apprendre la langue des signes française.</p>
-  //     <div class="project-links">
-  //       <a href="https://github.com/soumaiaa/langue-des-signes-fran-aise.git" target="_blank" rel="noopener">Voir le code sur GitHub</a>
-  //     </div>
-  //   </div>
-  // </div>` ,
-  `
-  <div class="project-card">
-    <img src="imageprojet/jeu.jpg" alt="Projet Jeu d'image" loading="lazy" />
-    <div class="project-content">
-      <h3>Jeu d'image</h3>
-      <p> Ce jeu mobile consiste à retrouver trois images identiques pour gagner. Il a été développé avec Flutter et permet d’illustrer mes compétences en création d’interfaces intuitives, en logique de jeu et en design responsive.</p>
-      <div class="project-links">
-        <a href="https://github.com/soumaiaa/jeu-d-image.git" target="_blank" rel="noopener">Voir le code sur GitHub</a>
-      </div>
-    </div>
-  </div>`,
-  
- `
-  <div class="project-card">
-    <img src="imageprojet/rundom.avif" alt="Projet Random Rumble React" loading="lazy" />
-    <div class="project-content">
-      <h3>Random Rumble</h3>
-      <p>Ce projet est un petit jeu interactif développé avec React.  Il permet à l'utilisateur de lancer une action aléatoire à chaque clic</p>
-      <div class="project-links">
-        <a href="https://github.com/soumaiaa/random-rumble-react.git" target="_blank" rel="noopener">Voir le code sur GitHub</a>
-      </div>
-    </div>
-  </div>` , 
+  // Web
+  {
+    title: "Task Master – Application de gestion de tâches",
+    img: "imageprojet/task-master.png",
+    desc: "Application web de gestion de tâches (CRUD) développée avec React pour le frontend et Node.js / Express pour le backend. Le backend est déployé sur Render et le frontend sur Vercel.",
+    link: "https://task-master-phi-pied.vercel.app/",
+    category: "Web"
+  },
+  {
+    title: "Chiligram",
+    img: "imageprojet/chiligram.gif",
+    desc: "Site HTML/CSS/PHP avec un peu de Javascript asynchrone.",
+    link: "https://soumaia-chiligrame.projets.garage404.com/",
+    category: "Web"
+  },
+  {
+    title: "Random Rumble",
+    img: "imageprojet/rundom.avif",
+    desc: "Petit jeu interactif développé avec React.",
+    link: "https://github.com/soumaiaa/random-rumble-react.git",
+    category: "Web"
+  },
+  {
+    title: "Site d'agence de voyage",
+    img: "imageprojet/Tour_Operateur.gif",
+    desc: "Site PHP/MySQL pour une agence de voyage, avec formulaire dynamique et pages multiples.",
+    link: "https://soumaia-voyage.projets.garage404.com/index.php",
+    category: "Web"
+  },
+  {
+    title: "The Mountain",
+    img: "imageprojet/montagne.gif",
+    desc: "Exercice HTML/CSS avec animation simple, typographie et design épuré.",
+    link: "https://soumaia-the-mountain.projets.garage404.com/",
+    category: "Web"
+  },
+  {
+    title: "Combat",
+    img: "imageprojet/combat.gif",
+    desc: "Petit jeu de combat avec PHP (POO).",
+    link: "https://soumaia-combat.projets.garage404.com/",
+    category: "Web"
+  },
+  {
+    title: "One Million Lines",
+    img: "imageprojet/onemillion.gif",
+    desc: "Reproduction d'une maquette avec Bootstrap 5.",
+    link: "https://onemillionlinesoumaia.netlify.app/",
+    category: "Web"
+  },
+  {
+    title: "Yellow",
+    img: "imageprojet/jaune jaune.gif",
+    desc: "Reproduction d'une maquette avec SASS.",
+    link: "https://soumaia-yellow.projets.garage404.com/",
+    category: "Web"
+  },
+  {
+    title: "Yo! Application",
+    img: "imageprojet/yoo.png",
+    desc: "Reproduction d'une maquette en CSS et HTML.",
+    link: "https://yooyo-soumaia.netlify.app/",
+    category: "Web"
+  },
+  {
+    title: "Zoo",
+    img: "imageprojet/zoo.gif",
+    desc: "Projet avec classes PHP et héritage.",
+    link: "https://soumaia-zoo.projets.garage404.com/pages/",
+    category: "Web"
+  },
+  {
+    title: "Drum Pad",
+    img: "imageprojet/drumppad.gif",
+    desc: "Clavier numérique avec JavaScript.",
+    link: "https://soumaia-drump.projets.garage404.com/",
+    category: "Web"
+  },
+  {
+    title: "Luxury Services",
+    img: "imageprojet/luxury.png",
+    desc: "Site de recrutement avec base clients sous Symfony.",
+    link: "https://soumaia-luxury-services.projets.garage404.com/",
+    category: "Web"
+  },
+  {
+    title: "Battle Office",
+    img: "imageprojet/battles.gif",
+    desc: "Landing Page E-Commerce simplifié, connecté à API, Symfony.",
+    link: "https://soumaia-battle-office.projets.garage404.com/",
+    category: "Web"
+  },
 
-`
-    <div class="project-card">
-      <img src="imageprojet/Tour_Operateur.gif" alt="Projet agence de voyage" loading="lazy" />
-      <div class="project-content">
-        <h3>Site d'agence de voyage</h3>
-        <p>Site PHP/MySQL pour une agence de voyage, avec formulaire dynamique et pages multiples.</p>
-        <div class="project-links">
-          <a href="https://soumaia-voyage.projets.garage404.com/index.php" target="_blank" rel="noopener">Voir le projet</a>
-        </div>
-      </div>
-    </div>`,
-`
-    <div class="project-card">
-      <img src="imageprojet/montagne.gif" alt="Projet The Mountain" loading="lazy" />
-      <div class="project-content">
-        <h3>Landing Page - The Mountain</h3>
-        <p>Exercice HTML/CSS avec animation simple, typographie et design épuré.</p>
-        <div class="project-links">
-          <a href="https://soumaia-the-mountain.projets.garage404.com/" target="_blank" rel="noopener">Voir le projet</a>
-        </div>
-      </div>
-    </div>`,
-`
-    <div class="project-card">
-      <img src="imageprojet/combat.gif" alt="Projet Combat" loading="lazy" />
-      <div class="project-content">
-        <h3>Combat</h3>
-        <p>Petit jeu de combat avec PHP (POO).</p>
-        <div class="project-links">
-          <a href="https://soumaia-combat.projets.garage404.com/" target="_blank" rel="noopener">Voir le projet</a>
-        </div>
-      </div>
-    </div>`,
-`
-    <div class="project-card">
-      <img src="imageprojet/onemillion.gif" alt="Projet One Million Lines" loading="lazy" />
-      <div class="project-content">
-        <h3>One Million Lines</h3>
-        <p>Reproduction d'une maquette avec Bootstrap 5.</p>
-        <div class="project-links">
-          <a href="https://onemillionlinesoumaia.netlify.app/" target="_blank" rel="noopener">Voir le projet</a>
-        </div>
-      </div>
-    </div>`,
-`
-    <div class="project-card">
-      <img src="imageprojet/jaune jaune.gif" alt="Projet Yellow" loading="lazy" />
-      <div class="project-content">
-        <h3>Yellow</h3>
-        <p>Reproduction d'une maquette avec SASS.</p>
-        <div class="project-links">
-          <a href="https://soumaia-yellow.projets.garage404.com/" target="_blank" rel="noopener">Voir le projet</a>
-        </div>
-      </div>
-    </div>`,
-`
-    <div class="project-card">
-      <img src="imageprojet/yoo.png" alt="Projet Yo! Application" loading="lazy" />
-      <div class="project-content">
-        <h3>Yo! Application</h3>
-        <p>Reproduction d'une maquette en CSS et HTML.</p>
-        <div class="project-links">
-          <a href="https://soumaia-yo.projets.garage404.com/" target="_blank" rel="noopener">Voir le projet</a>
-        </div>
-      </div>
-    </div>`,
-`
-    <div class="project-card">
-      <img src="imageprojet/zoo.gif" alt="Projet Zoo" loading="lazy" />
-      <div class="project-content">
-        <h3>Zoo</h3>
-        <p>Projet avec classes PHP et héritage.</p>
-        <div class="project-links">
-          <a href="https://soumaia-zoo.projets.garage404.com/pages/" target="_blank" rel="noopener">Voir le projet</a>
-        </div>
-      </div>
-    </div>`,
+  // Mobile
+  {
+    title: "Calculator App",
+    img: "imageprojet/calculatrice.webp",
+    desc: "Application calculatrice développée en Flutter, intégrant des fonctionnalités classiques avec une interface moderne.",
+    link: "https://github.com/soumaiaa/calculator_App.git",
+    category: "Mobile"
+  },
+  {
+    title: "Jeu d'image",
+    img: "imageprojet/jeu.jpg",
+    desc: "Jeu mobile pour retrouver trois images identiques pour gagner. Développé avec Flutter.",
+    link: "https://github.com/soumaiaa/jeu-d-image.git",
+    category: "Mobile"
+  },
 
-`
-    <div class="project-card">
-      <img src="imageprojet/drumppad.gif" alt="Projet Drum Pad" loading="lazy" />
-      <div class="project-content">
-        <h3>Drum Pad</h3>
-        <p>Clavier numérique avec JavaScript.</p>
-        <div class="project-links">
-          <a href="https://soumaia-drump.projets.garage404.com/" target="_blank" rel="noopener">Voir le projet</a>
-        </div>
-      </div>
-    </div>` ,
-    `
+  // WordPress
+  {
+    title: "Site WordPress - Demain Selfcare",
+    img: "imageprojet/demain.jpeg",
+    desc: "Site professionnel réalisé pour une cliente avec WordPress et Divi.",
+    link: "https://demainselfcare.fr/",
+    category: "WordPress"
+  },
+  {
+    title: "Site Festival Culturel",
+    img: "imageprojet/music.gif",
+    desc: "Projet réalisé pour promouvoir un festival, développé sous WordPress avec Elementor.",
+    link: "https://negar-soumaia-festival.projets.garage404.com/",
+    category: "WordPress"
+  },
 
-    <div class="project-card">
-      <img src="imageprojet/luxury.png" alt="Projet Luxury Services" loading="lazy" />
-      <div class="project-content">
-        <h3>Luxury Services</h3>
-        <p>Site de recrutement avec base clients sous Symfony.</p>
-        <div class="project-links">
-          <a href="https://soumaia-luxury-services.projets.garage404.com/" target="_blank" rel="noopener">Voir le projet</a>
-        </div>
-      </div>
-    </div>`,
-`
-    <div class="project-card">
-      <img src="imageprojet/battles.gif" alt="Projet Battle Office" loading="lazy" />
-      <div class="project-content">
-        <h3>Battle Office</h3>
-        <p>Landing Page E-Commerce simplifié, connecté à API, Symfony.</p>
-        <div class="project-links">
-          <a href="https://soumaia-battle-office.projets.garage404.com/" target="_blank" rel="noopener">Voir le projet</a>
-        </div>
-      </div>
-    </div>
- `
-  ];
-
-  const projectsGrid = document.getElementById('projectsGrid');
-  const loadMoreBtn = document.getElementById('loadMoreBtn');
-
-  let visibleCount = 6;
-
-  function renderProjects(count) {
-    projectsGrid.innerHTML = projects.slice(0, count).join('');
-    if (count >= projects.length) {
-      loadMoreBtn.style.display = 'none';
-    }
+  // Autres
+  {
+    title: "TP ALPINE",
+    img: "imageprojet/tpalpine.png",
+    desc: "Application React pour simuler la gestion d’un garage automobile, créée dans le cadre de ma formation.",
+    link: "https://alpinesoumaia.netlify.app/",
+    category: "Autres"
+  },
+  {
+    title: "Jeu Philosophique🧠",
+    img: "imageprojet/jeuphilos.png",
+    desc: "Jeu interactif multilingue (FR / AR / EN) basé sur des questions philosophiques. Réalisé avec HTML, CSS et JavaScript.",
+    link: "https://jeu-philosophique.netlify.app/",
+    category: "Autres"
   }
+];
+
+const projectsGrid = document.getElementById('projectsGrid');
+const loadMoreBtn = document.getElementById('loadMoreBtn');
+const filterBtns = document.querySelectorAll('.filter-btn');
+
+let visibleCount = 6;
+let currentCategory = "all";
+
+function renderProjects() {
+  let filtered = currentCategory === "all" ? projects : projects.filter(p => p.category === currentCategory);
+  projectsGrid.innerHTML = filtered.slice(0, visibleCount).map(p => `
+    <div class="project-card">
+      <img src="${p.img}" alt="${p.title}" loading="lazy" />
+      <div class="project-content">
+        <h3>${p.title}</h3>
+        <p>${p.desc}</p>
+        <div class="project-links">
+          <a href="${p.link}" target="_blank" rel="noopener">Voir le projet</a>
+        </div>
+      </div>
+    </div>
+  `).join('');
+
+  if (visibleCount >= filtered.length) {
+    loadMoreBtn.style.display = 'none';
+  } else {
+    loadMoreBtn.style.display = 'block';
+  }
+}
+
+loadMoreBtn.addEventListener('click', () => {
+  visibleCount += 6;
+  renderProjects();
+});
+
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    filterBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentCategory = btn.dataset.category;
+    visibleCount = 6;
+    renderProjects();
+  });
+});
+
+// Initial render
+renderProjects();
+
 
   loadMoreBtn.addEventListener('click', () => {
     visibleCount += 6;
@@ -339,3 +291,29 @@ const menuToggle = document.getElementById('menu-toggle');
       header.classList.remove('shrink');
     }
   });
+
+  /////////////// fin header
+
+  /////////////// annimation competences
+  const skills = document.querySelectorAll('.skill-circle');
+
+function animateSkills() {
+  skills.forEach(skill => {
+    const circle = skill.querySelector('.circle');
+    const level = skill.getAttribute('data-level');
+    circle.style.background = `conic-gradient(#3182ce ${level * 3.6}deg, #e2e8f0 ${level * 3.6}deg)`;
+  });
+}
+
+// Déclencher quand la section entre dans la vue
+window.addEventListener('scroll', () => {
+  const section = document.querySelector('#competences');
+  const sectionTop = section.getBoundingClientRect().top;
+  const screenHeight = window.innerHeight;
+
+  if (sectionTop < screenHeight - 100) {
+    animateSkills();
+  }
+});
+
+  /////////////// fin annimation competences
